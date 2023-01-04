@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a;
+}
+
+.gradient-text {
+    font-size: 8rem;
+    font-family: ubuntu;
+    color: transparent;
+    background: linear-gradient(270deg, #42d392, #5f8aef);
+    background-clip: text;
+}
